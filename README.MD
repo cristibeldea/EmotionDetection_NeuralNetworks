@@ -357,18 +357,7 @@ Acestea fiind spuse, cu suficientă răbdare și un calculator cu un GPU perform
 integrat), modelul are potențialul de ajunge la acuratețe mare, în urma găsirii configurării
 corecte.
 
-Prin realizarea acestui proiect am aprofundat concepte esențiale din domeniul Aplicațiilor
-Multimedia, cum ar fi: capturarea și procesarea imaginilor în timp real, prelucrarea datelor
-video frame-by-frame, manipularea matricelor de pixeli în formate digitale (RGB) și integrarea
-de modele de inteligență artificială pentru analiză facială. De asemenea, am înțeles importanța
-tehnicilor de compresie, resizing și batch processing în optimizarea fluxurilor multimedia.
-Utilizarea threading-ului pentru separarea procesării de captură video a consolidat cunoștințele
-despre arhitecturi eficiente pentru aplicații interactive. Integrarea modelelor DeepFace și
-OpenCV DNN mi-a oferit o perspectivă practică asupra modului în care putem extinde
-funcționalitățile multimedia prin sisteme de recunoaștere facială, emoțională și de estimare a
-vârstei. Astfel, proiectul a contribuit semnificativ la formarea unei baze solide de competențe
-aplicabile în dezvoltarea de aplicații multimedia moderne.
-
+Prin realizarea acestui proiect am aprofundat concepte esențiale din domeniul Inteligenței Artificiale și Deep Learning-ului, în special în zona rețelelor neuronale convoluționale (CNN) și a integrării modelelor pre-antrenate în aplicații reale. Am dobândit experiență practică în procesarea imaginilor în timp real, manipularea datelor video frame-by-frame și prelucrarea matricelor de pixeli în formate digitale (RGB), în contextul construirii unui sistem de analiză facială bazat pe modele A.I. De asemenea, am înțeles rolul tehnicilor de preprocesare precum resizing, normalizare și batch processing în optimizarea performanței modelelor și a fluxurilor de inferență. Utilizarea threading-ului pentru separarea capturii video de etapa de inferență a consolidat înțelegerea arhitecturilor eficiente pentru aplicații interactive bazate pe A.I. Integrarea modelelor DeepFace și OpenCV DNN a oferit o perspectivă practică asupra modului în care sistemele de Deep Learning pot fi combinate pentru a rezolva probleme complexe precum detecția facială, recunoașterea emoțiilor și estimarea vârstei. Astfel, proiectul a contribuit semnificativ la dezvoltarea unor competențe solide în domeniul A.I., aplicabile în proiectarea și implementarea sistemelor inteligente moderne.
 
 ## 6)Bibliografie:
 
