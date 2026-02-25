@@ -85,10 +85,7 @@ de analiză facială;
 - Optimizarea timpului de procesare prin batch detection și threading;
 - Accesibilitatea pe echipamente uzuale, fără necesitatea unor resurse hardware
 deosebite;
-
-## - Extensibilitatea pentru alte tipuri de predicții (gen, etnie) fără modificări majore ale
-
-## arhitecturii.
+- Extensibilitatea pentru alte tipuri de predicții (gen, etnie) fără modificări majore ale arhitecturii.
 
 ## 2.3 Aspecte teoretice multimedia
 
