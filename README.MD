@@ -1,6 +1,4 @@
-# Detecția facială, aproximarea emoției și
-
-# a vârstei
+# Detecția facială, aproximarea emoției și a vârstei
 
 ## Autor: Dan Cristian Beldea, 332AA
 
@@ -161,8 +159,9 @@ La o primă rulare de test a modelului de detecție facială, rezultatele nu au 
 Aveam multe pătrate pe o multitudine de trăsături ale feței, uneori chiar și pe diverse obiecte
 din background. Fața nu era văzută ca o față cu totul, ci ca o multitudine de fețe, modelul
 recunoscând mai mult ochi, bărbie, ureche, etc. (vedeți Fig.1.)
+
 Figura 1
-![alt text](../../Desktop/lift/pandoc-3.9-windows-x86_64/pandoc-3.9/image.png)
+![examples](demonstrative_photos/image.png)
 
 Pentru a corecta acest aspect, am extins setul de ”nonfaces” cu mai multe poze ale obiectelor
 pe care am observat că era fixat să le recunoască ca fețe (tastaturi, etichete, afișe colorate,
@@ -170,8 +169,9 @@ prize). Apoi, pentru a evita detecția de părți ale fețelor, am creat un prog
 setul de date inițial (cel cu poze nerestrânse cu oameni, unde se văd și fețe dar și background),
 doar bucăți de genul: un pic de păr dar și background, un pic din bărbie, doar ochiul, doar gura,
 etc, folosind încă odată Haar Cascade de la Opencv. (vedeți Fig.2.).
+
 Figura 2.
-![alt text](../../Desktop/lift/pandoc-3.9-windows-x86_64/pandoc-3.9/image-1.png)
+![processing](demonstrative_photos/image-1.png)
 ```
 a)poza originală b)față extrasă din poză^ c)poză pentru ”nonfaces”^
 ```
@@ -310,8 +310,9 @@ funcționalitatea sa. Se deschide o fereastră care ne arată output-ul de la ca
 device-ului pe care ne aflăm. Programul se poate opri, închizând fereastra de la butonul ”X”
 din dreapta-sus, sau apăsând tasta ”q”. Imediat ce programul detectează fețe, le încercuiește și
 arată datele despre fețele surprinse pe ecran, ca in Figura 3.
+
 Figura 3.
-![alt text](../../Desktop/lift/pandoc-3.9-windows-x86_64/pandoc-3.9/image-2.png)
+![live usage](demonstrative_photos/image-2.png)
 
 ## 5)Concluzii și parametri de performanță
 
